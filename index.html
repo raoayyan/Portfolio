@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayyan Akbar</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/profile_picture.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Ayyan Akbar</h1>
+
+            <p class="title">Software Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:ayyanakbar507@gmail.com" class="contact-link"
+                  >ayyanakbar507@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a class="contact-link">+92 3176238012</a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                target="_blank"
+                href="www.linkedin.com/in/ayyan-akbar-a13ba4225"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                target="_blank"
+                href="https://github.com/raoayyan"
+                class="social-link"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <!-- <li class="social-item">
+              <a
+                target="_blank"
+                href=""
+                class="social-link"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li> -->
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <!-- <p>
+              I'm Creative Director and UI/UX Designer from Sydney, Australia,
+              working in web development and print media. I enjoy turning
+              complex problems into simple, beautiful and intuitive designs.
+            </p> -->
+
+            <p>
+              I am a Full Stack JavaScript developer with experience in Backend,
+              Frontend, and DevOps. I excel at solving problems and often find
+              creative solutions for the challenges I face. I specialize in
+              creating functional, user-friendly, and visually appealing
+              websites and applications. Helping people bring their visions to
+              the web and exceeding their expectations is incredibly rewarding
+              for me. I am currently seeking new opportunities in React,
+              JavaScript, and Node.js and DevOps roles. Let's work together to
+              turn your ideas into reality.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Frontend Development</h4>
+
+                  <p class="service-item-text">
+                    Crafting engaging and intuitive user interfaces,
+                    transforming ideas into visually stunning and interactive
+                    web experiences that captivate users.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backend Development</h4>
+
+                  <p class="service-item-text">
+                    Building robust and scalable server-side applications,
+                    ensuring seamless data management and integration for a
+                    smooth and efficient user experience.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">DevOps</h4>
+
+                  <p class="service-item-text">
+                    Streamlining development and operations, implementing best
+                    practices for continuous integration and delivery to enhance
+                    collaboration, productivity, and software quality.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                  <p class="service-item-text">
+                    Harnessing the power of Machine Learning, crafting
+                    cutting-edge solutions that provide advanced insights and
+                    predictive capabilities
+                  </p>
+                </div>
+              </li>
+              <!-- 
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Natural Language Processing
+                  </h4>
+
+                  <p class="service-item-text">
+                    Pioneering Natural Language Processing (NLP) solutions that
+                    empower machines to understand, interpret, and interact with
+                    human language, revolutionizing information processing and
+                    communication.
+                  </p>
+                </div>
+              </li> -->
+
+              <!-- <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Generative AI</h4>
+
+                  <p class="service-item-text">
+                    Generative AI harnesses the power of algorithms to produce
+                    human-like outputs, revolutionizing creativit. By generating
+                    content, images, etc, it unleashes innovative possibilities,
+                    shaping the future of technology and human-machine
+                    interaction.
+                  </p>
+                </div>
+              </li> -->
+            </ul>
+          </section>
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skill-box">Nextjs</li>
+              <li class="skill-box">TypeScript</li>
+              <li class="skill-box">Tailwind CSS</li>
+              <li class="skill-box">React</li>
+              <li class="skill-box">Node.js</li>
+              <li class="skill-box">MongoDB</li>
+              <li class="skill-box">Linux</li>
+              <li class="skill-box">Github</li>
+              <li class="skill-box">Docker</li>
+              <li class="skill-box">AWS</li>
+              <li class="skill-box">ExpressJS</li>
+              <li class="skill-box">Redux</li>
+              <li class="skill-box">LLM</li>
+              <li class="skill-box">langchain</li>
+              <li class="skill-box">RAG</li>
+            </ul>
+          </section>
+          <!--
+          - testimonials
+        -->
+
+          <!-- <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Daniel lewis
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Jessica miller
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Emily evans
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Henry william"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Henry william
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section> -->
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <!-- <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-1-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-2-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-3-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-4-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-5-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-6-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section> -->
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  National University of Sciences and Technology
+                </h4>
+                <h4 class="h4 timeline-item-mintitle">
+                  BE Software Engineering
+                </h4>
+
+                <span>2021 — 2025</span>
+
+                <p class="timeline-text">
+                  Studying Software Engineering at NUST, I have excelled in
+                  advanced coursework and actively contributed to coding
+                  projects, honing my skills in software development and
+                  problem-solving.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  National Cyber Security Lab
+                </h4>
+
+                <h4 class="h4 timeline-item-mintitle">
+                  Junior Software Engineer (Full time)
+                </h4>
+                <span>Sep 2023 — Present</span>
+
+                <p class="timeline-text">
+                  <li class="timeline-text-li">
+                    Developed and deployed a comprehensive Compliance Toolkit
+                    using Node.js, Express.js, and MongoDB. Designed and
+                    implemented RESTful APIs and optimized performance through
+                    advanced MongoDB aggregation queries.
+                  </li>
+
+                  <li class="timeline-text-li">
+                    Engineered dynamic and user-friendly interfaces with
+                    Next.js, TypeScript, and Tailwind CSS. Enhanced user
+                    experience by integrating RTK queries to manage data
+                    fetching and state efficiently.
+                  </li>
+
+                  <li class="timeline-text-li">
+                    Implemented secure and scalable application architecture by
+                    incorporating Redux Toolkit for state management and JWT
+                    authentication with custom middleware for robust user
+                    security.
+                  </li>
+                  <li class="timeline-text-li">
+                    Contributed to the Continuous Integration/Continuous
+                    Deployment (CI/CD) pipeline setup, streamlining the
+                    deployment process and ensuring smooth and rapid releases.
+                  </li>
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Headstrater</h4>
+
+                <h4 class="h4 timeline-item-mintitle">
+                  Software Engineering Fellow
+                </h4>
+                <span>July 2024 — Present</span>
+
+                <p class="timeline-text">
+                  <li class="timeline-text-li">
+                    Built and deployed 5 AI projects in 5 weeks using React JS,
+                    Next.js, Firebase, Clerk,AWS, and Vercel, following agile
+                    methodologies with weekly sprints and incorporated CI/CD
+                    practices for iterative deployment.
+                  </li>
+                  <li class="timeline-text-li">
+                    Worked in a team of 3 to develop an interactive customer
+                    support agent using Next.js, integrated a custom RAG
+                    pipeline using OpenAI and Pinecone that responds based on a
+                    company’s knowledge base.
+                  </li>
+                  <li class="timeline-text-li">
+                    Collaborated with 3 Fellows to build and deploy a SaaS
+                    product that generates dynamic flashcards based on any topic
+                    using the Llama 3.1 LLM via the open Router API, integrated
+                    a paywall and custom pricing plans using the Stripe API.
+                  </li>
+                  <li class="timeline-text-li">
+                    Implemented a web scraper that automatically extracts data
+                    from Rate my Professor and upsert to a Pinecone index,
+                    integrated with a RAG pipeline using LangChain and OpenAI
+                    GPT-4o to get up-to-date and relevant answers to user
+                    queries.
+                  </li>
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Bytewise</h4>
+
+                <h4 class="h4 timeline-item-mintitle">DevOps Intern</h4>
+                <span>Jun 2023 — Aug-2023</span>
+
+                <p class="timeline-text">
+                  Leveraged AWS services, including EC2, S3, and Lambda, to
+                  optimize infrastructure for scalability and
+                  cost-effectiveness. Efficiently managed application traffic
+                  with Amazon Elastic Load Balancing to enhance resource
+                  utilization. Automated workflows by implementing CI/CD for
+                  website development using AWS CodePipeline, ensuring
+                  streamlined and efficient deployment processes.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <!-- -------------------------------------------- -->
+          <!-- <section style="margin-top: 20px" class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Projects</h3>
+            </div>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Coding Assistant</h4>
+
+                <span>May 2024 </span>
+
+                <p class="timeline-text">
+                  Developed a versatile Coding Assistant using OpenAI API,
+                  Langchain, and Streamlit. This tool is capable of code
+                  generating real time code and in multiple languages, offering
+                  both brute force and optimized solutions with consideration
+                  for space and time complexity. It also provides code
+                  explanations, simplifying complex code structures for better
+                  understanding, and code debugging to identify and rectify
+                  errors. The project features a user-friendly interface with
+                  options to download the generated code and chat history is
+                  also recorded.
+                </p>
+              </li>
+            </ol>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  DocQuery: PDF-to-Question Chatbot
+                </h4>
+
+                <span>Mar 2024 </span>
+
+                <p class="timeline-text">
+                  Upload pdfs and then start chatting and ask questions related
+                  to pdfs you uploaded. Built using langchain, streamlit, OpenAI
+                  API , Cassandra database.
+                </p>
+              </li>
+            </ol>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  HandWritten Digit Generation
+                </h4>
+
+                <span>Mar 2024 </span>
+
+                <p class="timeline-text">
+                  The model uses a Deep Convolutional Generative Adversarial
+                  Network (DCGAN) to generate realistic looking handwritten
+                  digits using tensorflow.
+                </p>
+              </li>
+            </ol>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  2D Multiple Objects Detection for Autonomous Vehicles on KITTI
+                  Dataset
+                </h4>
+
+                <span>Feb 2024 </span>
+
+                <p class="timeline-text">
+                  Built a system using YOLOv8, YOLOv9 and KITTI data to detect
+                  multiple objects for self-driving cars. It helps cars see and
+                  understand their surroundings accurately in real time.
+                </p>
+              </li>
+            </ol>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Fake News Detector using LSTM
+                </h4>
+
+                <span>Feb 2024</span>
+
+                <p class="timeline-text">
+                  Developed a fake news detector using LSTM and natural language
+                  processing techniques. It helps identify misleading
+                  information, enhancing trust and reliability in news
+                  consumption.
+                </p>
+              </li>
+            </ol>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Online Shopping App</h4>
+
+                <span>Jan 2024</span>
+
+                <p class="timeline-text">
+                  Created an advanced online shopping app with React.js and
+                  Firebase, featuring Stripe payment integration and machine
+                  learning-driven recommendations. Includes a user-friendly
+                  interface, responsive chatbot, and map integration for easy
+                  location selection.
+                </p>
+              </li>
+            </ol>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Breast Cancer Detection</h4>
+
+                <span>Jul 2023</span>
+
+                <p class="timeline-text">
+                  Created a breast cancer detection system using machine
+                  learning techniques. It helps doctors identify potential cases
+                  early, improving chances of successful treatment.
+                </p>
+              </li>
+            </ol>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Student Performance Prediction
+                </h4>
+
+                <span>Jul 2023</span>
+
+                <p class="timeline-text">
+                  Developed a student performance prediction model using data
+                  analysis and machine learning. This tool helps educators
+                  foresee students' academic progress.
+                </p>
+              </li>
+            </ol>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  CryptoCurrency Potfolio Manager
+                </h4>
+
+                <span>Fall 2023</span>
+
+                <p class="timeline-text">
+                  Built Portfolio Manager using React.js as frontend and SQL as
+                  database.
+                </p>
+              </li>
+            </ol>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  American City Graph: Shortest Paths Exploration
+                </h4>
+
+                <span>Fall 2023</span>
+
+                <p class="timeline-text">
+                  Built a GUI-based pathfinder using Visual Studio’s .NET
+                  framework as frontend, and for implementation of pathfinder
+                  used Graph Data Structure and Dijkstra’s algorithm
+                </p>
+              </li>
+            </ol>
+          </section> -->
+
+          <!-- ----------------------------------------------------- -->
+
+          <!-- ---------------------------------------------------------------- -->
+
+          <!-- <section style="margin-top: 20px" class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Certifications</h3>
+            </div>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Machine learning</h4>
+
+                <p class="timeline-text">Offered by Standford online.</p>
+              </li>
+            </ol>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Mathematics for Machine learning and Data Science
+                </h4>
+                <p class="timeline-text">Offered by Deeplearning.ai.</p>
+              </li>
+            </ol>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Web Development</h4>
+
+                <p class="timeline-text">Offered by University of Michigan.</p>
+              </li>
+            </ol>
+
+            <ol style="margin-top: 15px" class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">React.js</h4>
+
+                <p class="timeline-text">Offered by Meta.</p>
+              </li>
+            </ol>
+          </section> -->
+          <!-- data-form-btn -->
+          <button class="form-btn" download>
+            <!-- <span>Download Resume</span> -->
+            <a class="f-btn" href="./assets/images/AyyanResumeNN.pdf" download
+              >Download Resume</a
+            >
+          </button>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Development</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>DevOps</button>
+              </li>
+
+              <!-- <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li> -->
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>DevOps</button>
+                </li>
+
+                <!-- <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li> -->
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://ai-agent-dashboard.vercel.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project5.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">AI Agent Performance</h3>
+                  <p class="project-category">Nextjs | AWS serverless architecture</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://rag-chat-bot-inky.vercel.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project6.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Echo (RAG powered Chatbot)</h3>
+
+                  <p class="project-category">open AI | RAG | Nextjs</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://pantry-web-app-kappa.vercel.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project8.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Pantry Tracker</h3>
+
+                  <p class="project-category">Firebase | Reactjs | Nodejs</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://ai-flash-card-theta.vercel.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/pj1.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">FlashLearn</h3>
+
+                  <p class="project-category">AI | Nextjs </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://www.figma.com/design/aIbYJ0qYh7bgmu72Si22xO/Restaurant-website-Landing-Page-Design-(Community)?node-id=0-1&t=HGDyA4iFxwwRCIx7-1">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/pj3.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Restaurant</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/pj4.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">OSCT</h3>
+
+                  <p class="project-category">company’s project Ongoing</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a
+                  target="_blank"
+                  href="https://medium.com/@raokhan627/deploy-a-next-js-app-from-github-to-an-ec2-instance-87f46d72a7fe"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/ec2.webp"
+                      alt="AI"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!-- <p class="blog-category">Design</p> -->
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Aug, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Deploy a Next.js App from GitHub to an EC2 Instance
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  target="_blank"
+                  href="https://medium.com/@raokhan627/implementing-rag-with-pinecone-on-colab-a8e8fb67fbb5"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/pinecone.webp"
+                      alt="AI"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!-- <p class="blog-category">Design</p> -->
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Aug, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Implementing RAG with pinecone on colab
+                    </h3>
+                  </div>
+                </a>
+              </li>
+              <li class="blog-post-item">
+                <a
+                  target="_blank"
+                  href="https://medium.com/@raokhan627/building-a-ci-cd-pipeline-with-aws-codepipeline-automate-testing-and-deployment-12cd929c8e51"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog.png"
+                      alt="AI"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!-- <p class="blog-category">Design</p> -->
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Oct, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Building a CI/CD Pipeline with AWS CodePipeline: Automate
+                      Testing and Deployment.
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  target="_blank"
+                  href="https://medium.com/@raokhan627/devops-what-is-taylorism-fd6b561b0fb6"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/tylr.webp"
+                      alt="AI"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!-- <p class="blog-category">Design</p> -->
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      DevOps: What is Taylorism?
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <!-- <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section> -->
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form
+              action="https://formsubmit.co/87ee11368c3df0ae7b5711ca2fc43a65"
+              method="POST"
+              class="form"
+              data-form
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  id="name"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                id="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
